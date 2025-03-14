@@ -1,0 +1,87 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+.header {
+grid-area: header;
+background-color: black;
+color: white;
+font-weight: bold;
+padding-left: 185px;
+font-size: 4cap;
+}
+.flex-header {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-weight:900;
+    
+}
+.main {
+    grid-area: main;
+}
+.sidebar {
+    grid-area: sidebar;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+.flex-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px;
+}
+.flex-sidebar p {
+    display: flex;
+    justify-content: center;
+    
+}
+.footer {
+    grid-area: footer;
+    background-color: black;
+    color: white;
+    padding-left: 185px;
+}
+.flex-footer {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    'header header'
+    'sidebar main'
+    'footer footer';
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.flex-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    
+}
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
