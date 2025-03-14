@@ -29,7 +29,7 @@ font-size: 4cap;
 .flex-sidebar {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 100px;
     padding: 20px;
 }
 .flex-sidebar p {
@@ -75,6 +75,7 @@ img {
     height: 100%;
     
 }
+
 .boton {
     display: flex;
     justify-content: center;
